@@ -282,6 +282,7 @@ img {
   gap: 40px;
   max-width: 1100px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .team-grid-center {
@@ -298,6 +299,10 @@ img {
 .two-center {
   grid-template-columns: repeat(2, minmax(280px, 320px));
   justify-content: center;
+}
+
+.events-bottom-row {
+  margin-top: 40px;
 }
 
 .four-center {
