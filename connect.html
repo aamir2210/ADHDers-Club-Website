@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADHDers Club | Connect</title>
+  <link rel="stylesheet" href="css/tailwind.css" />
+
+  <link rel="stylesheet" href="css/base.css" />
+
+
+  <script src="js/common.js" defer></script>
+  <script src="js/connect.js" defer></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="nav-wrap">
+    <nav class="nav flex items-center justify-between">
+  
+      <a class="brand flex items-center gap-3" href="index.html">
+        <span class="brand-text">ADHDers Club</span>
+      </a>
+  
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  
+      <div class="nav-links flex items-center gap-6" id="navLinks">
+        <a class="nav-link" href="index.html" data-page="home">About Us</a>
+        <a class="nav-link" href="team.html" data-page="team">Our Team</a>
+        <a class="nav-link" href="connect.html" data-page="connect">Join Us</a>
+      </div>
+  
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="connect-hero">
+      <p class="muted">
+        Join the community, follow updates, or reach out for collaborations and events.
+      </p>
+    </section>
+  
+    <section class="connect-grid">
+      <div class="card">
+        <h2 class="card-title">Community Links</h2>
+        <p class="muted">Quick ways to join and stay updated.</p>
+  
+        <div class="btn-row">
+          <a
+            class="btn"
+            href="https://discord.gg/BbzsMkcvu2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Discord
+          </a>
+  
+          <a
+            class="btn"
+            href="https://www.linkedin.com/company/adhders-club/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+  
+          <a
+            class="btn"
+            href="https://www.instagram.com/adhdersclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+        </div>
+      </div>
+  
+      <div class="card">
+        <h2 class="card-title">Email Us</h2>
+        <p class="muted">For partnerships, events, or questions.</p>
+  
+        <div class="email-box">
+          <code id="clubEmail">Adhders@my.yorku.ca</code>
+          <button class="btn small" id="btnCopyEmail">Copy</button>
+        </div>
+  
+        <a class="btn" id="btnMailTo" href="mailto:Adhders@my.yorku.ca">
+          Open email app →
+        </a>
+      </div>
+    </section>
+
+    <section class="join-steps">
+      <h2 class="join-title">Join Us on YU Connect</h2>
+      <p class="join-subtext">
+        Follow these simple steps to become part of ADHDers Club through YU Connect.
+      </p>
+  
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Use This Link</h3>
+          <p>
+            Go to YU Connect using
+            <a href="https://yuconnect.yorku.ca/ADHDers/club_signup" target="_blank" rel="noopener noreferrer"><u><b>this</b></u></a>
+            link and click on the "Join" button.
+          </p>
+        </div>
+  
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Sign In To Your Account</h3>
+          <p>
+            Sign in using your Passport York credentials and you will be redirected to the same page, this time while being logged into your account.
+          </p>
+        </div>
+  
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Click Join Again</h3>
+          <p>
+            Click the "Join" button again to become a member and stay updated with events and opportunities.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+<!-- hierarchial for this page, Presidents, Exec teams, and then brach down to different departments  -->

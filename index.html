@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> ADHDers Club | Home</title>
+  <link rel="stylesheet" href="css/tailwind.css" />
+  <!-- Shared styling -->
+  <link rel="stylesheet" href="css/base.css" />
+  <!-- Home-only styling -->
+
+
+  <!-- Shared JS -->
+  <script src="js/common.js" defer></script>
+  <!-- Home-only JS -->
+  <script src="js/home.js" defer></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="nav-wrap">
+    <nav class="nav flex items-center justify-between">
+  
+      <a class="brand flex items-center gap-3" href="index.html">
+        <span class="brand-text">ADHDers Club</span>
+      </a>
+  
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  
+      <div class="nav-links flex items-center gap-6" id="navLinks">
+        <a class="nav-link" href="index.html" data-page="home">About Us</a>
+        <a class="nav-link" href="team.html" data-page="team">Our Team</a>
+        <a class="nav-link" href="connect.html" data-page="connect">Join Us</a>
+      </div>
+  
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section class="team-landing">
+      <div class="container team-landing-inner">
+        <img
+          src="images/adhders-club-logo.jpeg"
+          alt="ADHDers Club logo"
+          class="team-landing-logo"
+        />
+  
+        <h1 class="team-landing-title">ADHDers Club @ York University</h1>
+  
+        <p class="team-landing-text">
+          A student-led space for support, awareness, and connection at York University.
+        </p>
+      </div>
+    </section>
+  
+    <section class="team-about-card-wrap">
+      <div class="container">
+        <article class="team-about-card">
+          <div class="team-about-image-wrap">
+            <img
+              src="images/team.jpeg"
+              alt="ADHDers Club team"
+              class="team-about-image"
+            />
+          </div>
+  
+          <div class="team-about-content">
+            <p class="team-about-kicker">What We Do</p>
+            <h2 class="team-about-title">Destigmatize ADHD<br> Empower Students<br>Build Community</h2>
+            <p class="team-about-desc">
+              We raise awareness about ADHD and mental health at York University while creating an inclusive space for students to connect, share experiences, and find support. 
+              Through resources, workshops, and collaborations, we provide practical tools to help students better understand and manage ADHD. Stay tuned for our upcoming events!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

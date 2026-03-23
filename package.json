@@ -1,0 +1,11 @@
+{
+  "name": "adhders-club-website",
+  "version": "1.0.0",
+  "scripts": {
+    "tw:watch": "tailwindcss -i ./css/tailwind-input.css -o ./css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
