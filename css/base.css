@@ -302,7 +302,9 @@ img {
 }
 
 .events-bottom-row {
-  margin-top: 40px;
+  margin-top: 60px;
+  display: grid;
+  gap: 40px;
 }
 
 .four-center {
